@@ -19,11 +19,43 @@ The goals/steps for this project:
 
 ---
 
+[//]: # (Image References)
+
+[image1]: ./Writeup_IV/I1_DataSummary.PNG "I1_DataSummary"
+[image4]: ./examples/placeholder.png "Traffic Sign 1"
+[image5]: ./examples/placeholder.png "Traffic Sign 2"
+[image6]: ./examples/placeholder.png "Traffic Sign 3"
+[image7]: ./examples/placeholder.png "Traffic Sign 4"
+[image8]: ./examples/placeholder.png "Traffic Sign 5"
+
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
 
 ### Here I will consider the rubric points individually and describe how I addressed each point in my implementation.  
 
 ---
+
+Project Python Code (Interactive python file: Traffic_Sign_Classifier_v6.ipynb)
+
+Python Code/Implementation: [Link](./MadhavKarri-Project3-Files/Traffic_Sign_Classifier_v6.ipynb)
+
+
+### Data Set Summary & Exploration
+
+#### 1. Provide a basic summary of the data set. In the code, the analysis should be done using python, numpy and/or pandas methods rather than hardcoding results manually.
+
+Used the numpy and pandas library to calculate summary statistics of the traffic signs data set:
+
+* The size of training set is ?
+* The size of the validation set is ?
+* The size of test set is ?
+* The shape of a traffic sign image is ?
+* The number of unique classes/labels in the data set is ?
+![alt text][image1]
+
+
+
+
+
 
 **Finding Lane Lines on Test Images/Frames**
 
