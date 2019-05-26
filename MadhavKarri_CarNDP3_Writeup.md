@@ -22,11 +22,10 @@ The goals/steps for this project:
 [//]: # (Image References)
 
 [image1]: ./Writeup_IV/I1_DataSummary.png "I1_DataSummary"
-[image2]: ./examples/I2_DVE1.png "I2_DVE1"
-[image3]: ./examples/I3_SCTrain.png "I3_SCTrain"
-[image4]: ./examples/I3_SCValid.png "I3_SCValid"
-[image5]: ./examples/I3_SCTest.png "I3_SCTest"
-[image8]: ./examples/placeholder.png "Traffic Sign 5"
+[image2]: ./Writeup_IV/I2_DVE1.png "I2_DVE1"
+[image3]: ./Writeup_IV/I3_SCTrain.png "I3_SCTrain"
+[image4]: ./Writeup_IV/I3_SCValid.png "I3_SCValid"
+[image5]: ./Writeup_IV/I3_SCTest.png "I3_SCTest"
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
 
