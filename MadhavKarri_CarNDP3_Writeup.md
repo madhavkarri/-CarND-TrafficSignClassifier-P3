@@ -85,6 +85,7 @@ Several data and image preprocessing steps/techniques were perfoemd on the origi
 
 #### 2. Model Architecture 
 * The neural-net model selected for this classification was based on convolutional neural-net (CNN) developed by  Pierre Sermanet / Yann LeCun paper.
+![][image6]
 The primary ascpect of this architecture, "In traditional ConvNets, the output of the last stage is fed to a classifier. In the present work the outputs of all the stages are fed to the classifier. This allows the classifier to use, not just high-level features, which tend to be global, invariant, but with little precise details, but also pooled lowlevel features, which tend to be more local, less invariant,
 and more accurately encode local motifs."
 
