@@ -82,6 +82,7 @@ Several data and image preprocessing steps/techniques were perfoemd on the origi
 
 ### Design and Test a Model Architecture
 
+#### Describe what your final model architecture looks like including model type, layers, layer sizes, connectivity, etc.) Consider including a diagram and/or table describing the final model.
   
 ### Reflection
 
