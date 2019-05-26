@@ -1,21 +1,21 @@
 # **Self-Driving Car Engineer Nanodegree**
-# **Project2: Advanced Lane Finding**
+# **Project3: Build a Traffic Sign Recognition Classifier**
 
 ## MK
 
-The goals/steps for this project are:
+Overview
+---
+In this project, use deep neural networks and convolutional neural networks to classify traffic signs. Train and validate a model so it can classify traffic sign images using the [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset). Use the trained model to predict and classify German traffic sign images from the web.
 
-* Compute the camera calibration matrix and distortion coefficients given a set of chessboard images.
-* Apply a distortion correction to raw images.
-* Use color transforms, gradients, etc., to create a thresholded binary image.
-* Apply a perspective transform to rectify binary image ("birds-eye view").
-* Detect lane pixels (using histogram peaks) and polynomial fit to find the lane boundary.
-* Implement margin/band search based on curve fits from previous frame.
-* Determine the curvature of the lane and vehicle position with respect to center.
-* Warp the detected lane boundaries back onto the original image.
-* Output visual display of the lane boundaries and numerical estimation of lane curvature and vehicle position.
-* Make a pipeline to implement the above set of steps on all of the frames from the video.
-* Reflect on your work in a written report
+The Project
+---
+The goals/steps for this project:
+* Load the German Traffic Sign data set
+* Explore, summarize, and visualize the data set
+* Design, train, and test a neural network model architecture
+* Use neural network model to make predictions on new German Traffic Sign images from the web
+* Analyze the softmax probabilities of the new images
+* Summarize and reflect on your work in a written report
 
 ---
 
