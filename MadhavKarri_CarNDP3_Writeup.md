@@ -21,7 +21,7 @@ The goals/steps for this project:
 
 [//]: # (Image References)
 
-[image1]: ./Writeup_IV/I1_DataSummary.PNG "I1_DataSummary"
+[image1]: ./Writeup_IV/I1_DataSummary.png "I1_DataSummary"
 [image4]: ./examples/placeholder.png "Traffic Sign 1"
 [image5]: ./examples/placeholder.png "Traffic Sign 2"
 [image6]: ./examples/placeholder.png "Traffic Sign 3"
@@ -50,7 +50,8 @@ Used the numpy and pandas library to calculate summary statistics of the traffic
 * The size of test set is ?
 * The shape of a traffic sign image is ?
 * The number of unique classes/labels in the data set is ?
-![alt text][image1]
+
+![][image1]
 
 
 
