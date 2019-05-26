@@ -22,10 +22,10 @@ The goals/steps for this project:
 [//]: # (Image References)
 
 [image1]: ./Writeup_IV/I1_DataSummary.png "I1_DataSummary"
-[image4]: ./examples/placeholder.png "Traffic Sign 1"
-[image5]: ./examples/placeholder.png "Traffic Sign 2"
-[image6]: ./examples/placeholder.png "Traffic Sign 3"
-[image7]: ./examples/placeholder.png "Traffic Sign 4"
+[image2]: ./examples/I2_DVE1.png "I2_DVE1"
+[image3]: ./examples/I3_SCTrain.png "I3_SCTrain"
+[image4]: ./examples/I3_SCValid.png "I3_SCValid"
+[image5]: ./examples/I3_SCTest.png "I3_SCTest"
 [image8]: ./examples/placeholder.png "Traffic Sign 5"
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
@@ -43,7 +43,7 @@ Python Code/Implementation: [Link](./MadhavKarri-Project3-Files/Traffic_Sign_Cla
 
 #### 1. Provide a basic summary of the data set. In the code, the analysis should be done using python, numpy and/or pandas methods rather than hardcoding results manually.
 
-Used the numpy and pandas library to calculate summary statistics of the traffic signs data set:
+Used numpy and pandas library to calculate summary statistics of the traffic signs data set:
 
 * The size of training set is ?
 * The size of the validation set is ?
@@ -52,6 +52,24 @@ Used the numpy and pandas library to calculate summary statistics of the traffic
 * The number of unique classes/labels in the data set is ?
 
 ![][image1]
+
+#### 2. Include an exploratory visualization of the dataset.
+
+An exploratory visualization of the data set was performed on the entire data set. Each traffic sign was dsiplayed and listed with the following set fo features:
+
+* Traffic Sign id:
+* Traffic Sign Label: 
+* Traffic Sign 0 Training Sample Count : 
+* Traffic Sign 0 Training Sample Distribution : 
+* Display 5 sample image for each class/label from training set data
+
+![][image2]
+
+Below plots show sample count for each of the classes from the training, validation, and test sets
+
+![][image3]
+![][image4]
+![][image5]
 
 
 
