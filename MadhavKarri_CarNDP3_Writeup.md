@@ -145,6 +145,7 @@ Five German traffic signs found on the web:
 
 <img src="Writeup_IV/NGTS_5.png" width="100">
 
+Images with labels 12 and 13 might potentially be difficult to classify, because of additional sign-boards sitting above the target traffic signs
 
 ### Reflection
 
