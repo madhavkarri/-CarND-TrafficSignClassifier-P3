@@ -29,12 +29,6 @@ The goals/steps for this project:
 [image6]: ./Writeup_IV/I4_CNNArch.png "I4_CNNArch"
 [image7]: ./Writeup_IV/I5_CNNArch.png "I5_CNNArch"
 
-[image8]: (./Writeup_IV/NGTS_1.png =100x20) "NGTS_1"
-[image9]: (./Writeup_IV/NGTS_2.png =100x20) "NGTS_2"
-[image10]: (./Writeup_IV/NGTS_3.png =100x20) "NGTS_3"
-[image11]: (./Writeup_IV/NGTS_4.png =100x20) "NGTS_4"
-[image12]: (./Writeup_IV/NGTS_5.png =100x20) "NGTS_5"
-
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
 
@@ -130,8 +124,10 @@ Above numbers were arrived through an iterative process:
 ### Test a Model on New Images
 
 Five German traffic signs found on the web:
+
 [Label 8](https://www.bloomberg.com/opinion/articles/2019-01-27/autobahn-speed-limits-good-for-the-environment-bad-for-germany)
-* ![][image8]
+<img src="Writeup_IV/NGTS_1.png.png" width="50">
+
 [Label 11](https://dc2ktown.files.wordpress.com/2013/08/blogpriroad.jpg)
 * ![][image9]
 [Label 12](https://angelikasgerman.co.uk/wp-content/uploads/2018/02/Priority.jpg)
