@@ -102,7 +102,7 @@ Final model consisted of the following layer architecture:
 #### 3. Model Training Parameters
 The following training parameters were used during the training, validation, and testing process:
 * Learning Rate = 0.001 (Reasoning: based on a few initial runs, 0.001 (default) seemed to be appropriate value for this study)
-* Number of Steps (for optimizer): 5000 (Reasoning: anything above 5000 steps did not attain any further gains in performance)
+* Number of Steps (for optimizer): 4500-5000 (Reasoning: anything above 4500-5000 steps did not attain any further gains in performance)
 * Batch Size: 125
 * Dropout Probability: 0.5
 * Optiization Technique: Adam Optimizer (Reasoning: succinctly adaptive learning rate algorithm)
@@ -112,7 +112,7 @@ The following training parameters were used during the training, validation, and
 
 Final model results were as follows:
 * Validation set accuracy: 0.97
-* Test set accuracy of: 0.95
+* Test set accuracy of: 0.95.7
 
 Above numbers were arrived through an iterative process:
 * Primary tuning parameter was the filter size on convolution layers. 
@@ -150,7 +150,7 @@ Images with labels 11, 12, and 13 might potentially be difficult to classify, be
 #### 2. Model Predictions
 
 * The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%. 
-* This compares reasonably to the accuracy on the test set of 95%.
+* This compares reasonably to the accuracy on the test set of 95.7%.
 * Model missed predicting label 11. Potential reasons
   * Original image is at an angle
   * Original image when modified to 32X32 pixels, the image got further skewed
@@ -159,20 +159,43 @@ Images with labels 11, 12, and 13 might potentially be difficult to classify, be
   
   ![][NGTS_IP]
   
-  * In addition "Label 24: Road narrows on the right" resembles somewhat closer to "Label 11: Right-of-way at the next intersection", specifically with the skewed image from the web
 
 #### 3. Top 5 Softmax Probabilities for Each Image
 * Original image label input: [ 8 11 12 13 18]
-* Class prediction: [ 8 24 12 13 18]
+* Class prediction: [ 8 23 12 13 18]
 * Softmax Probabilities
-  * Label 8: 0.76 
-  * Label 24: 0.54
+  * Label 8: 0.73
+    * Label 1: 0.12
+    * Label 4: 0.12
+    * Label 5: 0.028
+    * Label 0: 0.0047    
+  * Label 23: 0.72
+    * Label 12: 0.1
+    * Label 11: 0.08
+    * Label 40: 0.03
+    * Label 27: 0.02
   * Label 12: 1
+    * Label 40: 0
+    * Label 9: 0
+    * Label 14: 0
+    * Label 37: 0
   * Label 13: 1
+    * Label 12: 0
+    * Label 25: 0
+    * Label 28: 0
+    * Label 38: 0
   * Label 18: 1
+    * Label 26: 0
+    * Label 37: 0
+    * Label 1: 0
+    * Label 22: 0 
 
-[NGTS_T5P]: ./Writeup_IV/NGTS_T5P.png "NGTS_T5P"
-![][NGTS_T5P]
+[NGTS_T5Pa]: ./Writeup_IV/NGTS_T5Pa.png "NGTS_T5Pa"
+![][NGTS_T5Pa]
+
+[NGTS_T5Pb]: ./Writeup_IV/NGTS_T5Pb.png "NGTS_T5Pb"
+![][NGTS_T5Pb]
+
 
 ### Reflection
 
