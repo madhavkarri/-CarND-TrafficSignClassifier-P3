@@ -26,8 +26,8 @@ The goals/steps for this project:
 [image3]: ./Writeup_IV/I3_SCTrain.png "I3_SCTrain"
 [image4]: ./Writeup_IV/I3_SCValid.png "I3_SCValid"
 [image5]: ./Writeup_IV/I3_SCTest.png "I3_SCTest"
-[image6]: ./Writeup_IV/I4_CCNArch.png "I4_CCNArch"
-[image7]: ./Writeup_IV/I5_CCNArch.png "I5_CCNArch"
+[image6]: ./Writeup_IV/I4_CNNArch.png "I4_CNNArch"
+[image7]: ./Writeup_IV/I5_CNNArch.png "I5_CNNArch"
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
 
