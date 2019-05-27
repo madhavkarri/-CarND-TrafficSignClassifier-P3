@@ -156,6 +156,7 @@ Images with labels 11, 12, and 13 might potentially be difficult to classify, be
   * Original image when modified to 32X32 pixels, the image got further skewed
 
 #### 3. Top 5 Softmax Probabilities for Each Image
+
 [NGTS_T5P]: ./Writeup_IV/NGTS_T5P.png "NGTS_T5P"
 
 ### Reflection
