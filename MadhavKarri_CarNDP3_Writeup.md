@@ -123,7 +123,7 @@ Above numbers were arrived through an iterative process:
 
 ### Test a Model on New Images
 
-Five German traffic signs found on the web:
+#### 1. Five German traffic signs found on the web:
 
 [Label 8](https://www.bloomberg.com/opinion/articles/2019-01-27/autobahn-speed-limits-good-for-the-environment-bad-for-germany)
 
@@ -145,7 +145,18 @@ Five German traffic signs found on the web:
 
 <img src="Writeup_IV/NGTS_5.png" width="100">
 
-Images with labels 12 and 13 might potentially be difficult to classify, because of additional sign-boards sitting above the target traffic signs
+Images with labels 11, 12, and 13 might potentially be difficult to classify, because of additional sign-boards sitting above the target traffic signs
+
+#### 2. Model Predictions
+
+* The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%. 
+* This compares reasonably to the accuracy on the test set of 95%.
+* Model missed predicting label 11. Potential reasons
+  * Original image is at an angle
+  * Original image when modified to 32X32 pixels, the image got further skewed
+
+#### 3. Top 5 Softmax Probabilities for Each Image
+[NGTS_T5P]: ./Writeup_IV/NGTS_T5P.png "NGTS_T5P"
 
 ### Reflection
 
