@@ -29,6 +29,13 @@ The goals/steps for this project:
 [image6]: ./Writeup_IV/I4_CNNArch.png "I4_CNNArch"
 [image7]: ./Writeup_IV/I5_CNNArch.png "I5_CNNArch"
 
+[image8]: (./Writeup_IV/NGTS_1.jpg =100x20) "NGTS_1"
+[image9]: (./Writeup_IV/NGTS_2.jpg =100x20) "NGTS_2"
+[image10]: (./Writeup_IV/NGTS_3.jpg =100x20) "NGTS_3"
+[image11]: (./Writeup_IV/NGTS_4.jpg =100x20) "NGTS_4"
+[image12]: (./Writeup_IV/NGTS_5.jpg =100x20) "NGTS_5"
+
+
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
 
 ### Here I will consider the rubric points individually and describe how I addressed each point in my implementation.  
@@ -119,7 +126,22 @@ Above numbers were arrived through an iterative process:
   * Modified number of filters to 32 and 64 for convolution layers 1 and 2, this resulted in an increase of accuracy upto 80%
 * Preprocess Image Data-Step 5 (averaging image data using mean and variance) resulted in a further increase of accuracy beyond 90%
 
-  
+
+### Test a Model on New Images
+
+Five German traffic signs found on the web:
+[Label 8](https://www.bloomberg.com/opinion/articles/2019-01-27/autobahn-speed-limits-good-for-the-environment-bad-for-germany)
+* ![][image8]
+[Label 11](https://dc2ktown.files.wordpress.com/2013/08/blogpriroad.jpg)
+* ![][image9]
+[Label 12](https://angelikasgerman.co.uk/wp-content/uploads/2018/02/Priority.jpg)
+* ![][image10]
+[Label 13](https://angelikasgerman.co.uk/wp-content/uploads/2018/02/Vorfahrt-achten.jpg)
+* ![][image11]
+[Label 18](https://www.businessinsider.in/Minnesotas-governor-just-issued-a-sweeping-and-emotional-executive-order-about-vowels-on-street-signs/articleshow/46938741.cms)
+* ![][image12]
+
+
 ### Reflection
 
 ### Possible improvements to pipeline
