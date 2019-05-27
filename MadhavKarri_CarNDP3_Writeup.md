@@ -112,7 +112,7 @@ The following training parameters were used during the training, validation, and
 
 Final model results were as follows:
 * Validation set accuracy: 0.97
-* Test set accuracy of: 0.95.7
+* Test set accuracy of: 0.957
 
 Above numbers were arrived through an iterative process:
 * Primary tuning parameter was the filter size on convolution layers. 
@@ -207,12 +207,8 @@ Images with labels 11, 12, and 13 might potentially be difficult to classify, be
 ![][NGTS_T5Pb]
 
 
-### Reflection
-
-### Possible improvements to pipeline
-- Automate the process either through Machine Learning/AI for the following set of tasks
-  - To pick optimal co-ordinates for masking
-  - For the prior detection of shadows, high brightness scenarios that masks yellow/white lane line markings
-- Using mapping and localization explore possibility to detect and utilize priori information on lane coordinates and curvature
-- Impelement an shadow detection algorithm such as [Link](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.95.3832&rep=rep1&type=pdf)
+### Reflections and Further Improvements
+There are many improvements that can be implemented to further increase the predcition accuracy
+* A significant variation in sample count between different classes can be minimized. Data augumentation can be perfromed using exisiting data set and performing operations such as rotation, mirroring, skewing etc. Tools are available within tensorflow itself that accomplishes this task with minimal effort
+* There is a potential chance to improve accuracy by implementing L2-Regularization
 
