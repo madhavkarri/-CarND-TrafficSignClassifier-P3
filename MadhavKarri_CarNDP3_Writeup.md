@@ -36,9 +36,9 @@ The goals/steps for this project:
 
 ---
 
-Project Python Code (Interactive python file: Traffic_Sign_Classifier_v6.ipynb)
+Project Python Code (Interactive python file: Traffic_Sign_Classifier_v7.ipynb)
 
-Python Code/Implementation: [Link](./MadhavKarri-Project3-Files/Traffic_Sign_Classifier_v6.ipynb)
+Python Code/Implementation: [Link](./MadhavKarri-Project3-Files/Traffic_Sign_Classifier_v7.ipynb)
 
 
 ### Data Set Summary & Exploration
