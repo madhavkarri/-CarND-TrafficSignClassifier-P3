@@ -158,6 +158,7 @@ Images with labels 11, 12, and 13 might potentially be difficult to classify, be
 #### 3. Top 5 Softmax Probabilities for Each Image
 
 [NGTS_T5P]: ./Writeup_IV/NGTS_T5P.png "NGTS_T5P"
+![][NGTS_T5P]
 
 ### Reflection
 
