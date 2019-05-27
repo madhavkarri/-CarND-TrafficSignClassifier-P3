@@ -86,9 +86,13 @@ Several data and image preprocessing steps/techniques were perfoemd on the origi
 
 #### 2. Model Architecture 
 * The neural-net model selected for this classification was based on convolutional neural-net (CNN) developed by  [Pierre Sermanet / Yann LeCun paper](http://yann.lecun.com/exdb/publis/pdf/sermanet-ijcnn-11.pdf)
+
 ![][image6]
+
 The primary ascpect of this architecture, "In traditional ConvNets, the output of the last stage is fed to a classifier. In the present work the outputs of all the stages are fed to the classifier. This allows the classifier to use, not just high-level features, which tend to be global, invariant, but with little precise details, but also pooled lowlevel features, which tend to be more local, less invariant,
 and more accurately encode local motifs."
+
+This model was specifically selected, because of its application on German Traffic Sign Image Data Set.
 
 Final model consisted of the following layer architecture:
 
@@ -96,10 +100,11 @@ Final model consisted of the following layer architecture:
 
 #### 3. Model Training Parameters
 The following training parameters were used during the training, validation, and testing process:
-* Learning Rate = 0.001
-* Number of Steps (for optimizer): 5000
+* Learning Rate = 0.001 (Reasoning: based on a few initial runs, 0.001 (default) seemed to be appropriate value for this study)
+* Number of Steps (for optimizer): 5000 (Reasoning: anything above 5000 steps did not attain any further gains in performance)
 * Batch Size: 125
 * Dropout Probability: 0.5
+* Optiization Technique: Adam Optimizer (Reasoning: succinctly adaptive learning rate algorithm)
 
 
 #### 4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
