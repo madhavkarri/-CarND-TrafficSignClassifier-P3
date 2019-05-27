@@ -154,6 +154,9 @@ Images with labels 11, 12, and 13 might potentially be difficult to classify, be
 * Model missed predicting label 11. Potential reasons
   * Original image is at an angle
   * Original image when modified to 32X32 pixels, the image got further skewed
+  [NGTS_IP]: ./Writeup_IV/NGTS_IP.png "NGTS_IP"
+  ![][NGTS_IP]
+  * In addition "Label 24: Road narrows on the right" resembles somewhat closer to "Label 11: Right-of-way at the next intersection", specifically with the skewed image from the web
 
 #### 3. Top 5 Softmax Probabilities for Each Image
 Original image label input: [ 8 11 12 13 18]
