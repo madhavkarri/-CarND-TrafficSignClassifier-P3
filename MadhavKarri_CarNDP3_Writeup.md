@@ -162,7 +162,14 @@ Images with labels 11, 12, and 13 might potentially be difficult to classify, be
   * In addition "Label 24: Road narrows on the right" resembles somewhat closer to "Label 11: Right-of-way at the next intersection", specifically with the skewed image from the web
 
 #### 3. Top 5 Softmax Probabilities for Each Image
-Original image label input: [ 8 11 12 13 18]
+* Original image label input: [ 8 11 12 13 18]
+* Class prediction: [ 8 24 12 13 18]
+* Softmax Probabilities
+  * Label 8: 0.76 
+  * Label 24: 0.54
+  * Label 12: 1
+  * Label 13: 1
+  * Label 18: 1
 
 [NGTS_T5P]: ./Writeup_IV/NGTS_T5P.png "NGTS_T5P"
 ![][NGTS_T5P]
