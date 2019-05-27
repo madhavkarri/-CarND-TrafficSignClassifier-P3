@@ -161,29 +161,39 @@ Images with labels 11, 12, and 13 might potentially be difficult to classify, be
   
 
 #### 3. Top 5 Softmax Probabilities for Each Image
-* Original image label input: [ 8 11 12 13 18]
-* Class prediction: [ 8 23 12 13 18]
+* Original image label input: [8 11 12 13 18]
+* Class prediction: [8 23 12 13 18]
 * Softmax Probabilities
+* Image 1 (Groundtruth Value: 8)
+  * Predicted Label and Probability
   * Label 8: 0.73
     * Label 1: 0.12
     * Label 4: 0.12
     * Label 5: 0.028
-    * Label 0: 0.0047    
+    * Label 0: 0.0047
+* Image 2 (Groundtruth Value: 11)  
+  * Predicted Label and Probability
   * Label 23: 0.72
     * Label 12: 0.1
     * Label 11: 0.08
     * Label 40: 0.03
     * Label 27: 0.02
-  * Label 12: 1
+* Image 3 (Groundtruth Value: 12) 
+  * Predicted Label and Probability
+  * Predicted Label 12: 1
     * Label 40: 0
     * Label 9: 0
     * Label 14: 0
     * Label 37: 0
-  * Label 13: 1
+* Image 4 (Groundtruth Value: 13)
+  * Predicted Label and Probability
+  * Predicted Label 13: 1
     * Label 12: 0
     * Label 25: 0
     * Label 28: 0
     * Label 38: 0
+* Image 5 (Groundtruth Value: 18)
+  * Predicted Label and Probability
   * Label 18: 1
     * Label 26: 0
     * Label 37: 0
