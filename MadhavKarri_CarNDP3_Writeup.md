@@ -82,7 +82,7 @@ Several data and image preprocessing steps/techniques were perfoemd on the origi
 * Step 2: Convert color image to grayscale. It was observed conversion of color image to grayscale for this specific data set will lower/minimze the data size by reducing number of channels in the image without the loss of any features.
 * Step 3: Apply CLAHE (Contrast Limited Adaptive Histogram Equalization) algorithm to modify low contrast and brigthness images. This increases numer of acceptable samples for a given class
 * Step 4: Scale the processed image data to lie between 0 and 1 by dividing all the pixel values by 255. Will help numeircal stability and convergence during optimizationn process
-* Step 5: Center data around zero by using mean and variance. The mean and variance are calcualted through all the images per pixel from the same position. As in step 4, this will also help numeircal stability and convergence during optimizationn process
+* Step 5: Center data around zero by using mean and variance. The mean and variance are calcualted through all the images per pixel from the same position. As in step 4, this will also help numeircal stability and convergence during optimizationn process. Step 5 was not implemented initially. This was a later addition to increase accuracy of the training process. Ideally, this step should have been implemented prior to the execution of neural-network
 
 #### 2. Model Architecture 
 * The neural-net model selected for this classification was based on convolutional neural-net (CNN) developed by  [Pierre Sermanet / Yann LeCun paper](http://yann.lecun.com/exdb/publis/pdf/sermanet-ijcnn-11.pdf)
@@ -107,12 +107,17 @@ The following training parameters were used during the training, validation, and
 * Optiization Technique: Adam Optimizer (Reasoning: succinctly adaptive learning rate algorithm)
 
 
-#### 4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
+#### 4. Solution Approach
 
-My final model results were:
-* training set accuracy of ?
-* validation set accuracy of ? 
-* test set accuracy of ?
+Final model results were as follows:
+* Validation set accuracy: 0.97
+* Test set accuracy of: 0.95
+
+Above numbers were arrived through an iterative process:
+* Primary tuning parameter was the filter size on convolution layers. 
+  * Initially ran the estimator using approximately 6 and 16 filters for convolution layers 1 and 2, this resulted in about 30-40% accuracy
+  * Modified number of filters to 32 and 64 for convolution layers 1 and 2, this resulted in an increase of accuracy upto 80%
+* Preprocess Image Data-Step 5 resulted in a further increase of accuracy beyond 90%
 
 If an iterative approach was chosen:
 * What was the first architecture that was tried and why was it chosen?
