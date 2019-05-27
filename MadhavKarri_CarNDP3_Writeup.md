@@ -27,6 +27,7 @@ The goals/steps for this project:
 [image4]: ./Writeup_IV/I3_SCValid.png "I3_SCValid"
 [image5]: ./Writeup_IV/I3_SCTest.png "I3_SCTest"
 [image6]: ./Writeup_IV/I4_CCNArch.png "I4_CCNArch"
+[image7]: ./Writeup_IV/I4_CCNArch.png "I5_CCNArch"
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
 
@@ -89,6 +90,8 @@ Several data and image preprocessing steps/techniques were perfoemd on the origi
 The primary ascpect of this architecture, "In traditional ConvNets, the output of the last stage is fed to a classifier. In the present work the outputs of all the stages are fed to the classifier. This allows the classifier to use, not just high-level features, which tend to be global, invariant, but with little precise details, but also pooled lowlevel features, which tend to be more local, less invariant,
 and more accurately encode local motifs."
 
+Final model consisted of the following layer architecture:
+![][image7]
   
 ### Reflection
 
