@@ -126,16 +126,24 @@ Above numbers were arrived through an iterative process:
 Five German traffic signs found on the web:
 
 [Label 8](https://www.bloomberg.com/opinion/articles/2019-01-27/autobahn-speed-limits-good-for-the-environment-bad-for-germany)
-<img src="Writeup_IV/NGTS_1.png.png" width="50">
+
+<img src="Writeup_IV/NGTS_1.png" width="100">
 
 [Label 11](https://dc2ktown.files.wordpress.com/2013/08/blogpriroad.jpg)
-* ![][image9]
+
+<img src="Writeup_IV/NGTS_2.png" width="100">
+
 [Label 12](https://angelikasgerman.co.uk/wp-content/uploads/2018/02/Priority.jpg)
-* ![][image10]
+
+<img src="Writeup_IV/NGTS_3.png" width="100">
+
 [Label 13](https://angelikasgerman.co.uk/wp-content/uploads/2018/02/Vorfahrt-achten.jpg)
-* ![][image11]
+
+<img src="Writeup_IV/NGTS_4.png" width="100">
+
 [Label 18](https://www.businessinsider.in/Minnesotas-governor-just-issued-a-sweeping-and-emotional-executive-order-about-vowels-on-street-signs/articleshow/46938741.cms)
-* ![][image12]
+
+<img src="Writeup_IV/NGTS_5.png" width="100">
 
 
 ### Reflection
