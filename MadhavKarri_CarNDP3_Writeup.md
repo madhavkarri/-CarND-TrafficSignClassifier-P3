@@ -180,14 +180,14 @@ Images with labels 11, 12, and 13 might potentially be difficult to classify, be
     * Label 27: 0.02
 * Image 3 (Groundtruth Value: 12) 
   * Predicted Label and Probability
-  * Predicted Label 12: 1
+  * Label 12: 1
     * Label 40: 0
     * Label 9: 0
     * Label 14: 0
     * Label 37: 0
 * Image 4 (Groundtruth Value: 13)
   * Predicted Label and Probability
-  * Predicted Label 13: 1
+  * Label 13: 1
     * Label 12: 0
     * Label 25: 0
     * Label 28: 0
