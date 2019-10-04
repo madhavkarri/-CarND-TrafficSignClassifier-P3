@@ -1,5 +1,5 @@
 # **Self-Driving Car Engineer Nanodegree**
-# **Project3: Build a Traffic Sign Recognition Classifier**
+# **Project: Build a Traffic Sign Recognition Classifier**
 
 ## MK
 
