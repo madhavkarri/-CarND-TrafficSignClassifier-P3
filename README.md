@@ -112,14 +112,16 @@ An exploratory visualization of the data set was performed on the entire data se
 
 ![][image2]
 
-```python
+```
 
     Traffic Sign id: 0
     Traffic Sign Label: Speed limit (20km/h)
     Traffic Sign 0 Training Sample Count : 180
     Traffic Sign 0 Training Sample Distribution : 22.24%
 
+
 ![png](./Traffic_Sign_Classifier_v7/output_9_1.png)
+
 
     Traffic Sign id: 1
     Traffic Sign Label: Speed limit (30km/h)
