@@ -89,7 +89,7 @@ print("Number of testing examples =", n_test)
 print("Image data shape =", image_shape)
 print("Number of classes =", n_classes)
 ```
-#
+
 ```Python
 Number of training examples = 34799
 Number of validation examples = 4410
@@ -100,7 +100,7 @@ Number of classes = 43
 ```
 [//]: # (![][image1])
 
-#### 2. Include an exploratory visualization of the dataset.
+#
 
 An exploratory visualization of the data set was performed on the entire data set. Each traffic sign was dsiplayed and listed with the following set fo features:
 
