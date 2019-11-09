@@ -45,7 +45,7 @@ A basic summary of the data set. Data set analysis performed using python, numpy
 * The shape of a traffic sign image is ?
 * The number of unique classes/labels in the data set is ?
 
-```Python
+```python
 
 ### Replace each question mark with the appropriate value. 
 ### Use python, pandas or numpy methods rather than hard coding the results
@@ -90,7 +90,7 @@ print("Image data shape =", image_shape)
 print("Number of classes =", n_classes)
 ```
 
-```Python
+```python
 Number of training examples = 34799
 Number of validation examples = 4410
 Number of testing examples = 12630
@@ -111,6 +111,313 @@ An exploratory visualization of the data set was performed on the entire data se
 * Display 5 sample image for each class/label from training set data
 
 ![][image2]
+
+```python
+
+    Traffic Sign id: 0
+    Traffic Sign Label: Speed limit (20km/h)
+    Traffic Sign 0 Training Sample Count : 180
+    Traffic Sign 0 Training Sample Distribution : 22.24%
+
+![png](./Traffic_Sign_Classifier_v7/output_9_1.png)
+
+    Traffic Sign id: 1
+    Traffic Sign Label: Speed limit (30km/h)
+    Traffic Sign 1 Training Sample Count : 1980
+    Traffic Sign 1 Training Sample Distribution : 244.66%
+
+![png](./Traffic_Sign_Classifier_v7/output_9_3.png)
+
+    Traffic Sign id: 2
+    Traffic Sign Label: Speed limit (50km/h)
+    Traffic Sign 2 Training Sample Count : 2010
+    Traffic Sign 2 Training Sample Distribution : 248.37%
+
+![png](./Traffic_Sign_Classifier_v7/output_9_5.png)
+
+    Traffic Sign id: 3
+    Traffic Sign Label: Speed limit (60km/h)
+    Traffic Sign 3 Training Sample Count : 1260
+    Traffic Sign 3 Training Sample Distribution : 155.69%
+
+![png](./Traffic_Sign_Classifier_v7/output_9_7.png)
+
+    Traffic Sign id: 4
+    Traffic Sign Label: Speed limit (70km/h)
+    Traffic Sign 4 Training Sample Count : 1770
+    Traffic Sign 4 Training Sample Distribution : 218.71%
+
+![png](./Traffic_Sign_Classifier_v7/output_9_9.png)
+
+    Traffic Sign id: 5
+    Traffic Sign Label: Speed limit (80km/h)
+    Traffic Sign 5 Training Sample Count : 1650
+    Traffic Sign 5 Training Sample Distribution : 203.89%
+
+![png](./Traffic_Sign_Classifier_v7/output_9_11.png)
+
+    Traffic Sign id: 6
+    Traffic Sign Label: End of speed limit (80km/h)
+    Traffic Sign 6 Training Sample Count : 360
+    Traffic Sign 6 Training Sample Distribution : 44.48%
+
+![png](./Traffic_Sign_Classifier_v7/output_9_13.png)
+
+    Traffic Sign id: 7
+    Traffic Sign Label: Speed limit (100km/h)
+    Traffic Sign 7 Training Sample Count : 1290
+    Traffic Sign 7 Training Sample Distribution : 159.4%
+
+![png](./Traffic_Sign_Classifier_v7/output_9_15.png)
+
+    Traffic Sign id: 8
+    Traffic Sign Label: Speed limit (120km/h)
+    Traffic Sign 8 Training Sample Count : 1260
+    Traffic Sign 8 Training Sample Distribution : 155.69%
+
+![png](./Traffic_Sign_Classifier_v7/output_9_17.png)
+
+    Traffic Sign id: 9
+    Traffic Sign Label: No passing
+    Traffic Sign 9 Training Sample Count : 1320
+    Traffic Sign 9 Training Sample Distribution : 163.11%
+
+![png](./Traffic_Sign_Classifier_v7/output_9_19.png)
+
+    Traffic Sign id: 10
+    Traffic Sign Label: No passing for vehicles over 3.5 metric tons
+    Traffic Sign 10 Training Sample Count : 1800
+    Traffic Sign 10 Training Sample Distribution : 222.42%
+
+![png](./Traffic_Sign_Classifier_v7/output_9_21.png)
+
+    Traffic Sign id: 11
+    Traffic Sign Label: Right-of-way at the next intersection
+    Traffic Sign 11 Training Sample Count : 1170
+    Traffic Sign 11 Training Sample Distribution : 144.57%
+
+![png](./Traffic_Sign_Classifier_v7/output_9_23.png)
+
+    Traffic Sign id: 12
+    Traffic Sign Label: Priority road
+    Traffic Sign 12 Training Sample Count : 1890
+    Traffic Sign 12 Training Sample Distribution : 233.54%
+
+![png](./Traffic_Sign_Classifier_v7/output_9_25.png)
+
+    Traffic Sign id: 13
+    Traffic Sign Label: Yield
+    Traffic Sign 13 Training Sample Count : 1920
+    Traffic Sign 13 Training Sample Distribution : 237.25%
+
+![png](./Traffic_Sign_Classifier_v7/output_9_27.png)
+
+    Traffic Sign id: 14
+    Traffic Sign Label: Stop
+    Traffic Sign 14 Training Sample Count : 690
+    Traffic Sign 14 Training Sample Distribution : 85.26%
+
+![png](./Traffic_Sign_Classifier_v7/output_9_29.png)
+
+    Traffic Sign id: 15
+    Traffic Sign Label: No vehicles
+    Traffic Sign 15 Training Sample Count : 540
+    Traffic Sign 15 Training Sample Distribution : 66.73%
+
+![png](./Traffic_Sign_Classifier_v7/output_9_31.png)
+
+    Traffic Sign id: 16
+    Traffic Sign Label: Vehicles over 3.5 metric tons prohibited
+    Traffic Sign 16 Training Sample Count : 360
+    Traffic Sign 16 Training Sample Distribution : 44.48%
+
+![png](./Traffic_Sign_Classifier_v7/output_9_33.png)
+
+    Traffic Sign id: 17
+    Traffic Sign Label: No entry
+    Traffic Sign 17 Training Sample Count : 990
+    Traffic Sign 17 Training Sample Distribution : 122.33%
+
+![png](./Traffic_Sign_Classifier_v7/output_9_35.png)
+
+    Traffic Sign id: 18
+    Traffic Sign Label: General caution
+    Traffic Sign 18 Training Sample Count : 1080
+    Traffic Sign 18 Training Sample Distribution : 133.45%
+
+![png](./Traffic_Sign_Classifier_v7/output_9_37.png)
+
+    Traffic Sign id: 19
+    Traffic Sign Label: Dangerous curve to the left
+    Traffic Sign 19 Training Sample Count : 180
+    Traffic Sign 19 Training Sample Distribution : 22.24%
+
+![png](./Traffic_Sign_Classifier_v7/output_9_39.png)
+
+    Traffic Sign id: 20
+    Traffic Sign Label: Dangerous curve to the right
+    Traffic Sign 20 Training Sample Count : 300
+    Traffic Sign 20 Training Sample Distribution : 37.07%
+
+![png](./Traffic_Sign_Classifier_v7/output_9_41.png)
+
+    Traffic Sign id: 21
+    Traffic Sign Label: Double curve
+    Traffic Sign 21 Training Sample Count : 270
+    Traffic Sign 21 Training Sample Distribution : 33.36%
+
+![png](./Traffic_Sign_Classifier_v7/output_9_43.png)
+
+    Traffic Sign id: 22
+    Traffic Sign Label: Bumpy road
+    Traffic Sign 22 Training Sample Count : 330
+    Traffic Sign 22 Training Sample Distribution : 40.78%
+
+![png](./Traffic_Sign_Classifier_v7/output_9_45.png)
+
+    Traffic Sign id: 23
+    Traffic Sign Label: Slippery road
+    Traffic Sign 23 Training Sample Count : 450
+    Traffic Sign 23 Training Sample Distribution : 55.61%
+
+![png](./Traffic_Sign_Classifier_v7/output_9_47.png)
+
+    Traffic Sign id: 24
+    Traffic Sign Label: Road narrows on the right
+    Traffic Sign 24 Training Sample Count : 240
+    Traffic Sign 24 Training Sample Distribution : 29.66%
+
+![png](./Traffic_Sign_Classifier_v7/output_9_49.png)
+
+    Traffic Sign id: 25
+    Traffic Sign Label: Road work
+    Traffic Sign 25 Training Sample Count : 1350
+    Traffic Sign 25 Training Sample Distribution : 166.82%
+
+![png](./Traffic_Sign_Classifier_v7/output_9_51.png)
+
+    Traffic Sign id: 26
+    Traffic Sign Label: Traffic signals
+    Traffic Sign 26 Training Sample Count : 540
+    Traffic Sign 26 Training Sample Distribution : 66.73%
+
+![png](./Traffic_Sign_Classifier_v7/output_9_53.png)
+
+    Traffic Sign id: 27
+    Traffic Sign Label: Pedestrians
+    Traffic Sign 27 Training Sample Count : 210
+    Traffic Sign 27 Training Sample Distribution : 25.95%
+
+![png](./Traffic_Sign_Classifier_v7/output_9_55.png)
+
+    Traffic Sign id: 28
+    Traffic Sign Label: Children crossing
+    Traffic Sign 28 Training Sample Count : 480
+    Traffic Sign 28 Training Sample Distribution : 59.31%
+
+![png](./Traffic_Sign_Classifier_v7/output_9_57.png)
+
+    Traffic Sign id: 29
+    Traffic Sign Label: Bicycles crossing
+    Traffic Sign 29 Training Sample Count : 240
+    Traffic Sign 29 Training Sample Distribution : 29.66%
+
+![png](./Traffic_Sign_Classifier_v7/output_9_59.png)
+
+    Traffic Sign id: 30
+    Traffic Sign Label: Beware of ice/snow
+    Traffic Sign 30 Training Sample Count : 390
+    Traffic Sign 30 Training Sample Distribution : 48.19%
+
+![png](./Traffic_Sign_Classifier_v7/output_9_61.png)
+
+    Traffic Sign id: 31
+    Traffic Sign Label: Wild animals crossing
+    Traffic Sign 31 Training Sample Count : 690
+    Traffic Sign 31 Training Sample Distribution : 85.26%
+
+![png](./Traffic_Sign_Classifier_v7/output_9_63.png)
+
+    Traffic Sign id: 32
+    Traffic Sign Label: End of all speed and passing limits
+    Traffic Sign 32 Training Sample Count : 210
+    Traffic Sign 32 Training Sample Distribution : 25.95%
+
+![png](./Traffic_Sign_Classifier_v7/output_9_65.png)
+
+    Traffic Sign id: 33
+    Traffic Sign Label: Turn right ahead
+    Traffic Sign 33 Training Sample Count : 599
+    Traffic Sign 33 Training Sample Distribution : 74.02%
+
+![png](./Traffic_Sign_Classifier_v7/output_9_67.png)
+
+    Traffic Sign id: 34
+    Traffic Sign Label: Turn left ahead
+    Traffic Sign 34 Training Sample Count : 360
+    Traffic Sign 34 Training Sample Distribution : 44.48%
+
+![png](./Traffic_Sign_Classifier_v7/output_9_69.png)
+
+    Traffic Sign id: 35
+    Traffic Sign Label: Ahead only
+    Traffic Sign 35 Training Sample Count : 1080
+    Traffic Sign 35 Training Sample Distribution : 133.45%
+
+![png](./Traffic_Sign_Classifier_v7/output_9_71.png)
+
+    Traffic Sign id: 36
+    Traffic Sign Label: Go straight or right
+    Traffic Sign 36 Training Sample Count : 330
+    Traffic Sign 36 Training Sample Distribution : 40.78%
+
+![png](./Traffic_Sign_Classifier_v7/output_9_73.png)
+
+    Traffic Sign id: 37
+    Traffic Sign Label: Go straight or left
+    Traffic Sign 37 Training Sample Count : 180
+    Traffic Sign 37 Training Sample Distribution : 22.24%
+
+![png](./Traffic_Sign_Classifier_v7/output_9_75.png)
+
+    Traffic Sign id: 38
+    Traffic Sign Label: Keep right
+    Traffic Sign 38 Training Sample Count : 1860
+    Traffic Sign 38 Training Sample Distribution : 229.83%
+
+![png](./Traffic_Sign_Classifier_v7/output_9_77.png)
+
+    Traffic Sign id: 39
+    Traffic Sign Label: Keep left
+    Traffic Sign 39 Training Sample Count : 270
+    Traffic Sign 39 Training Sample Distribution : 33.36%
+
+![png](./Traffic_Sign_Classifier_v7/output_9_79.png)
+
+    Traffic Sign id: 40
+    Traffic Sign Label: Roundabout mandatory
+    Traffic Sign 40 Training Sample Count : 300
+    Traffic Sign 40 Training Sample Distribution : 37.07%
+
+![png](./Traffic_Sign_Classifier_v7/output_9_81.png)
+
+    Traffic Sign id: 41
+    Traffic Sign Label: End of no passing
+    Traffic Sign 41 Training Sample Count : 210
+    Traffic Sign 41 Training Sample Distribution : 25.95%
+
+![png](./Traffic_Sign_Classifier_v7/output_9_83.png)
+
+    Traffic Sign id: 42
+    Traffic Sign Label: End of no passing by vehicles over 3.5 metric tons
+    Traffic Sign 42 Training Sample Count : 210
+    Traffic Sign 42 Training Sample Distribution : 25.95%
+
+![png](./Traffic_Sign_Classifier_v7/output_9_85.png)
+
+
+```
+#
 
 Below plots show sample count for each of the classes from the training, validation, and test sets
 
