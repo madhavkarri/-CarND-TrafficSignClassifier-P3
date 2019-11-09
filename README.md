@@ -88,7 +88,9 @@ print("Number of validation examples =", n_valid)
 print("Number of testing examples =", n_test)
 print("Image data shape =", image_shape)
 print("Number of classes =", n_classes)
-
+```
+#
+```Python
 Number of training examples = 34799
 Number of validation examples = 4410
 Number of testing examples = 12630
