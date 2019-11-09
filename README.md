@@ -456,7 +456,7 @@ The following training parameters were used during the training, validation, and
 * Number of Steps (for optimizer): 4500-5000 (Reasoning: anything above 4500-5000 steps did not attain any further gains in performance)
 * Batch Size: 125
 * Dropout Probability: 0.5
-* Optiization Technique: Adam Optimizer (Reasoning: succinctly adaptive learning rate algorithm)
+* Optimization Technique: Adam Optimizer (Reasoning: succinctly adaptive learning rate algorithm)
 
 
 #### 4. Solution Approach
