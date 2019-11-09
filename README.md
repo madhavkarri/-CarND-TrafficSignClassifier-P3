@@ -110,7 +110,7 @@ An exploratory visualization of the data set was performed on the entire data se
 * Traffic Sign 0 Training Sample Distribution : 
 * Display 5 sample image for each class/label from training set data
 
-![][image2]
+[//]: # (![][image2])
 
 
     Traffic Sign id: 0
