@@ -96,7 +96,7 @@ Image data shape = (32, 32, 3)
 Number of classes = 43
 
 ```
-![][image1]
+[//]: # (![][image1])
 
 #### 2. Include an exploratory visualization of the dataset.
 
