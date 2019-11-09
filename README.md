@@ -120,7 +120,7 @@ An exploratory visualization of the data set was performed on the entire data se
     Traffic Sign 0 Training Sample Distribution : 22.24%
 
 
-![png](Traffic_Sign_Classifier_v7/output_9_1.png)
+![png](/Traffic_Sign_Classifier_v7/output_9_1.png)
 
 
     Traffic Sign id: 1
