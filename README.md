@@ -112,7 +112,6 @@ An exploratory visualization of the data set was performed on the entire data se
 
 ![][image2]
 
-```
 
     Traffic Sign id: 0
     Traffic Sign Label: Speed limit (20km/h)
@@ -120,7 +119,7 @@ An exploratory visualization of the data set was performed on the entire data se
     Traffic Sign 0 Training Sample Distribution : 22.24%
 
 
-![png]: (./Traffic_Sign_Classifier_v7/output_9_1.png)
+![png](./Traffic_Sign_Classifier_v7/output_9_1.png)
 
 
     Traffic Sign id: 1
@@ -128,7 +127,7 @@ An exploratory visualization of the data set was performed on the entire data se
     Traffic Sign 1 Training Sample Count : 1980
     Traffic Sign 1 Training Sample Distribution : 244.66%
 
-![png]: ./Traffic_Sign_Classifier_v7/output_9_3.png
+![png](/Traffic_Sign_Classifier_v7/output_9_3.png)
 
     Traffic Sign id: 2
     Traffic Sign Label: Speed limit (50km/h)
@@ -417,8 +416,6 @@ An exploratory visualization of the data set was performed on the entire data se
 
 ![png](./Traffic_Sign_Classifier_v7/output_9_85.png)
 
-
-```
 #
 
 Below plots show sample count for each of the classes from the training, validation, and test sets
