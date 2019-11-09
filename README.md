@@ -45,6 +45,57 @@ A basic summary of the data set. Data set analysis performed using python, numpy
 * The shape of a traffic sign image is ?
 * The number of unique classes/labels in the data set is ?
 
+```Python
+
+### Replace each question mark with the appropriate value. 
+### Use python, pandas or numpy methods rather than hard coding the results
+
+# TODO: Number of training examples
+n_train = np.shape(X_train)[0]
+
+# TODO: Number of validation examples
+n_valid = np.shape(X_valid)[0]
+
+# TODO: Number of testing examples.
+n_test = np.shape(X_test)[0]
+
+# TODO: What's the shape of an traffic sign image?
+image_shape = np.shape(X_train[0,:,:,:])
+
+# TODO: How many unique classes/labels there are in the dataset.
+n_classes = len(np.unique(y_train))
+
+# training set
+y_train_df = pd.DataFrame({'y_train':y_train})
+y_train_agg = y_train_df['y_train'].value_counts().sort_index()
+# train sample distribution
+ts_dist = y_train_agg.values/(n_train/n_classes)*100
+
+# validation set
+y_valid_df = pd.DataFrame({'y_valid':y_valid})
+y_valid_agg = y_valid_df['y_valid'].value_counts().sort_index()
+# valid sample distribution
+vs_dist = y_valid_agg.values/(n_valid/n_classes)*100
+
+# test set
+y_test_df = pd.DataFrame({'y_test':y_test})
+y_test_agg = y_test_df['y_test'].value_counts().sort_index()
+# test sample distribution
+tes_dist = y_test_agg.values/(n_test/n_classes)*100
+
+print("Number of training examples =", n_train)
+print("Number of validation examples =", n_valid)
+print("Number of testing examples =", n_test)
+print("Image data shape =", image_shape)
+print("Number of classes =", n_classes)
+
+Number of training examples = 34799
+Number of validation examples = 4410
+Number of testing examples = 12630
+Image data shape = (32, 32, 3)
+Number of classes = 43
+
+```
 ![][image1]
 
 #### 2. Include an exploratory visualization of the dataset.
