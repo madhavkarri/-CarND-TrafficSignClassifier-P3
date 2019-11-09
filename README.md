@@ -17,8 +17,6 @@ The goals/steps for this project:
 * Analyze the softmax probabilities of the new images
 * Summarize and reflect on your work in a written report
 
----
-
 [//]: # (Image References)
 
 [image1]: ./Writeup_IV/I1_DataSummary.png "I1_DataSummary"
@@ -27,14 +25,9 @@ The goals/steps for this project:
 [image4]: ./Writeup_IV/I3_SCValid.png "I3_SCValid"
 [image5]: ./Writeup_IV/I3_SCTest.png "I3_SCTest"
 [image6]: ./Writeup_IV/I4_CNNArch.png "I4_CNNArch"
-[image7]: ./Writeup_IV/I5_CNNArch.png "I5_CNNArch"
+[image7]: ./Writeup_IV/I5_CNNArch.png "I5_CNNArch"  
 
-
-## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
-
-### Here I will consider the rubric points individually and describe how I addressed each point in my implementation.  
-
----
+#
 
 Project Python Code (Interactive python file: Traffic_Sign_Classifier_v7.ipynb)
 
