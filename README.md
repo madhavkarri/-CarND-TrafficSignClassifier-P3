@@ -33,12 +33,11 @@ Project Python Code (Interactive python file: Traffic_Sign_Classifier_v7.ipynb)
 
 Python Code/Implementation: [Link](./MadhavKarri-Project3-Files/Traffic_Sign_Classifier_v7.ipynb)
 
+#
 
-### Data Set Summary & Exploration
+#### Data Set Summary & Exploration
 
-#### 1. Provide a basic summary of the data set. In the code, the analysis should be done using python, numpy and/or pandas methods rather than hardcoding results manually.
-
-Used numpy and pandas library to calculate summary statistics of the traffic signs data set:
+A basic summary of the data set. Data set analysis performed using python, numpy and/or pandas methods
 
 * The size of training set is ?
 * The size of the validation set is ?
